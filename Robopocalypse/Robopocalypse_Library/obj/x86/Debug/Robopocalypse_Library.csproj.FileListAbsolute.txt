@@ -1,0 +1,6 @@
+C:\Users\Geoff\Desktop\PROJECTS FOR INTERVIEW\Robopoclypse\Robopocalypse_Library\bin\x86\Debug\Robopocalypse_Library.dll
+C:\Users\Geoff\Desktop\PROJECTS FOR INTERVIEW\Robopoclypse\Robopocalypse_Library\bin\x86\Debug\Robopocalypse_Library.pdb
+C:\Users\Geoff\Desktop\PROJECTS FOR INTERVIEW\Robopoclypse\Robopocalypse_Library\obj\x86\Debug\Robopocalypse_Library.csprojResolveAssemblyReference.cache
+C:\Users\Geoff\Desktop\PROJECTS FOR INTERVIEW\Robopoclypse\Robopocalypse_Library\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Geoff\Desktop\PROJECTS FOR INTERVIEW\Robopoclypse\Robopocalypse_Library\obj\x86\Debug\Robopocalypse_Library.dll
+C:\Users\Geoff\Desktop\PROJECTS FOR INTERVIEW\Robopoclypse\Robopocalypse_Library\obj\x86\Debug\Robopocalypse_Library.pdb

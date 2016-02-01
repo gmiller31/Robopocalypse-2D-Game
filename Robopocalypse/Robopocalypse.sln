@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robopocalypse", "Robopocalypse\Robopocalypse\Robopocalypse.csproj", "{F65FB9F8-C489-4903-A6C8-C8C827ED8FC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobopocalypseContent", "Robopocalypse\RobopocalypseContent\RobopocalypseContent.contentproj", "{E0A1F283-6B7C-4F4B-8306-7B5512D64188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robopocalypse_Library", "Robopocalypse_Library\Robopocalypse_Library.csproj", "{B61F08BD-E437-4044-8E83-B227F9E7DF14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F65FB9F8-C489-4903-A6C8-C8C827ED8FC5}.Debug|x86.ActiveCfg = Debug|x86
+		{F65FB9F8-C489-4903-A6C8-C8C827ED8FC5}.Debug|x86.Build.0 = Debug|x86
+		{F65FB9F8-C489-4903-A6C8-C8C827ED8FC5}.Release|x86.ActiveCfg = Release|x86
+		{F65FB9F8-C489-4903-A6C8-C8C827ED8FC5}.Release|x86.Build.0 = Release|x86
+		{E0A1F283-6B7C-4F4B-8306-7B5512D64188}.Debug|x86.ActiveCfg = Debug|x86
+		{E0A1F283-6B7C-4F4B-8306-7B5512D64188}.Release|x86.ActiveCfg = Release|x86
+		{B61F08BD-E437-4044-8E83-B227F9E7DF14}.Debug|x86.ActiveCfg = Debug|x86
+		{B61F08BD-E437-4044-8E83-B227F9E7DF14}.Debug|x86.Build.0 = Debug|x86
+		{B61F08BD-E437-4044-8E83-B227F9E7DF14}.Release|x86.ActiveCfg = Release|x86
+		{B61F08BD-E437-4044-8E83-B227F9E7DF14}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

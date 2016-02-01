@@ -1,0 +1,104 @@
+//Main Game level 2 - Lazer Boss
+T,Level 2;We felt like the factory was bent on destroying us.;Were we just reacting how we're supposed to react to new environments?;Either way... we could feel the familiar warmth of electricity coming from deeper within. ;Some sort of source.;Could it be mother LIGHT?;This time our decision was much easier. ;AI and intuition agreed our mission was to find this source.;But this new feeling we experienced;was entirely human.;It was fear.
+//Player Position
+H,100,200,100,300
+//Starter Floor
+B,T,32,32,512,5984
+//Starter Walls
+S,T,0,0,64,6016
+S,T,0,544,64,6016
+S,T,0,64,480,64
+//side pits
+A,T,64,64,96,480
+A,T,64,448,96,480
+E,Laser,Laser,96,96,480,96,0,9999
+E,Laser,Laser,96,480,480,480,0,9999
+//middle pit
+A,672,192,224,64
+A,736,192,64,96
+A,736,352,64,96
+A,832,192,224,64
+E,Laser,Laser,736,32,736,256,300,100
+E,Laser,Laser,768,32,768,256,300,100,100
+E,Laser,Laser,800,32,800,256,300,100,200
+E,Laser,Laser,736,320,736,544,300,100
+E,Laser,Laser,768,320,768,544,300,100,100
+E,Laser,Laser,800,320,800,544,300,100,200
+E,Laser,Laser,736,288,800,288,0,9999
+P,money,1000,768,128
+P,money,1000,768,448
+//2nd side pits
+A,T,1024,64,96,480
+A,T,1024,448,96,480
+E,SpinningBlade,Down,1056,192
+E,SpinningBlade,Up,1152,384
+P,money,1000,1150,192
+E,SpinningBlade,Down,1248,192
+P,money,1000,1248,384
+E,SpinningBlade,Up,1344,384
+P,money,1000,1344,192
+E,SpinningBlade,Down,1440,192
+//middle laser tunnel
+A,1632,192,64,224
+A,1632,352,64,224
+E,Laser,Laser,1632,256,1824,256,0,9999
+E,Laser,Laser,1632,320,1824,320,0,9999
+E,Laser,Laser,1632,256,1632,320,100,100
+P,energy,40,1696,288
+P,money,1000,1760,288
+E,Laser,Laser,1824,256,1824,320,100,100
+//3rd side pits
+A,T,1984,128,32,480
+A,T,1984,64,32,480
+A,1984,96,32,32
+A,2432,96,32,32
+E,Laser,Laser,1056,480,1440,480,0,99999
+E,Laser,Laser,1056,96,1440,96,0,99999
+E,Turret,Aimed,2016,96,0
+E,Turret,Aimed,2048,96,0
+E,Turret,Aimed,2080,96,0
+E,Turret,Aimed,2112,96,0
+E,Turret,Aimed,2144,96,0
+E,Turret,Aimed,2176,96,0
+E,Turret,Aimed,2208,96,0
+E,Turret,Aimed,2240,96,0
+E,Turret,Aimed,2272,96,0
+E,Turret,Aimed,2304,96,0
+E,Turret,Aimed,2336,96,0
+E,Turret,Aimed,2368,96,0
+E,Turret,Aimed,2400,96,0
+E,Laser,Laser,2016,480,2400,480,0,9999
+A,T,1984,448,96,480
+//laser split
+E,Laser,Laser,2560,160,2560,416,0,9999
+E,Laser,Laser,2688,64,2688,160,0,9999
+E,Laser,Laser,2560,288,2816,288,0,9999
+E,Laser,Laser,2688,416,2688,512,0,9999
+E,Laser,Laser,2816,160,2816,416,0,9999
+P,money,500,2498,96
+P,money,500,2498,480
+P,money,500,2688,224
+P,money,500,2688,352
+P,money,500,2880,96
+P,money,500,2880,480
+S,T,2944,64,96,960
+S,T,2944,448,96,960
+E,Laser,Laser,3008,160,3008,416,960,960
+E,Laser,Laser,3072,160,3072,416,960,960,60
+E,Laser,Laser,3136,160,3136,416,960,960,120
+E,Laser,Laser,3200,160,3200,416,960,960,180
+E,Laser,Laser,3264,160,3264,416,960,960,240
+E,Laser,Laser,3328,160,3328,416,960,960,300
+E,Laser,Laser,3392,160,3392,416,960,960,360
+E,Laser,Laser,3456,160,3456,416,960,960,420
+E,Laser,Laser,3520,160,3520,416,960,960,480
+E,Laser,Laser,3584,160,3584,416,960,960,540
+E,Laser,Laser,3648,160,3648,416,960,960,600
+E,Laser,Laser,3712,160,3712,416,960,960,660
+E,Laser,Laser,3776,160,3776,416,960,960,720
+E,Laser,Laser,3840,160,3840,416,960,960,780
+S,T,3872,64,192,96
+S,T,3872,352,192,96
+X,3904
+S,T,4864,64,484,128
+E,BossLaser,BossLaser,4368,256

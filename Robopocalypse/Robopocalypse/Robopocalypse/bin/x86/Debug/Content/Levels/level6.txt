@@ -1,0 +1,127 @@
+//Main Game level 3
+T,Level 3;The battle with the large laser robot shorted the AI in our heads.;No longer were there two sources telling our limbs how to move.;We find it easier to form thoughts and problem solve.;And what is LIGHT anyways? It's probably just some dumb acronym.;But even with this new clarity we have no clue what has caused us to gain sentience.;I call it clarity... But I'd argue it's the opposite.;We can think more quickly and formulate more thoughts.;Scatterbrained.;We acknowledge only our strongest sensation: nagging fear and the need to escape.;I wish the electricity was as comforting as we previously thought.
+//Player Position
+H,100,160,100,384
+//Starter Floor
+B,T,32,96,416,5984
+//Starter Walls
+S,T,0,0,96,6016
+S,T,0,512,96,6016
+S,T,0,96,416,32
+//Lasers
+//laser Border
+E,Laser,Laser,480,96,640,96,0,99999
+E,Laser,Laser,480,480,640,480,0,99999
+S,T,480,128,64,192
+S,T,480,416,64,192
+S,T,448,96,64,32
+S,T,672,96,64,32
+S,T,448,448,64,32
+S,T,672,448,64,32
+S,T,768,240,128,128
+E,SpinningBlade,Down,550,300
+E,SpinningBlade,Down,820,100
+E,SpinningBlade,Down,820,390
+//laser doors - two open
+E,Laser,Laser,1100,96,1100,224,300,150
+E,Laser,Laser,1100,224,1100,352,300,150,150
+E,Laser,Laser,1100,352,1100,480,300,150,300
+E,Homing,Homing,1500,100
+E,Homing,Homing,1500,500
+//laser doors - one open
+E,Laser,Laser,1500,96,1500,224,100,300
+E,Laser,Laser,1500,224,1500,352,100,100,100
+E,Laser,Laser,1500,352,1500,480,100,300,200
+//laser cube
+E,Laser,Laser,1750,200,2000,200,100,300
+E,Laser,Laser,2000,200,2000,400,100,300,100
+E,Laser,Laser,2000,400,1750,400,100,300,200
+E,Laser,Laser,1750,400,1750,200,100,300,300
+//cube prize
+P,money,1000,1850,300
+//turrets
+E,Turret,Aimed,2220,470,2
+E,Turret,Aimed,2270,435,2
+E,Turret,Aimed,2220,113,2
+E,Turret,Aimed,2270,143,2
+E,SpinningBlade,Down,2340,200
+E,SpinningBlade,Down,2470,170
+E,SpinningBlade,Down,2550,100
+S,T,2304,96,96,128
+S,T,2304,416,96,128
+S,T,2272,96,32,32
+S,T,2272,480,32,32
+E,Laser,Laser,2432,416,2624,224,0,9999
+E,Laser,Laser,2432,160,2496,96,0,9999
+S,T,2432,96,64,32
+S,T,2464,96,32,32
+S,T,2432,448,64,32
+S,T,2464,416,96,32
+S,T,2496,384,128,32
+S,T,2528,352,160,32
+S,T,2560,320,192,32
+S,T,2592,288,128,64
+S,T,2624,256,32,32
+E,Laser,Laser,2592,416,3296,416,240,180,60
+E,Laser,Laser,2592,448,3296,448,240,180,60
+E,Laser,Laser,2592,480,3296,480,240,180,60
+S,T,2784,96,320,192
+S,T,2976,192,224,64
+S,T,3136,192,224,192
+//right laser wall
+S,T,3328,192,320,64
+S,T,3488,192,244,64
+S,T,3616,192,96,256
+S,T,3616,384,128,256
+P,energy,60,3500,120
+E,Laser,Laser,2976,96,3776,96,240,180
+E,Laser,Laser,2976,128,3776,128,240,180
+E,Laser,Laser,2976,160,3776,160,240,180
+S,T,3808,96,128,64
+//laser tunnel
+S,T,3872,96,64,640
+S,T,3872,448,64,640
+//lasers
+E,Laser,Laser,3904,128,3904,448,100,150
+E,Laser,Laser,4000,128,4000,448,150,120
+E,Laser,Laser,4096,128,4096,448,120,30
+E,Laser,Laser,4192,128,4192,448,200,60
+E,Laser,Laser,4288,128,4288,448,180,90
+E,Laser,Laser,4384,128,4384,448,120,120
+S,T,4448,160,64,64
+S,T,4448,384,64,64
+//laserdiamonds
+E,Laser,Laser,4512,192,4672,96,0,9999
+E,Laser,Laser,4512,384,4672,480,0,9999
+E,Laser,Laser,4672,96,4832,192,0,9999
+E,Laser,Laser,4672,480,4832,384,0,9999
+E,Laser,Laser,4832,192,4992,96,0,9999
+E,Laser,Laser,4832,384,4992,480,0,9999
+E,Laser,Laser,4992,96,5152,190,0,9999
+E,Laser,Laser,4992,480,5152,384,0,9999
+//inner
+E,Laser,Laser,4608,256,4608,320,0,9999
+P,energy,60,4672,288
+E,Laser,Laser,4736,256,4736,320,0,9999
+E,Laser,Laser,4926,256,4926,320,0,9999
+P,money,1000,4990,288
+E,Laser,Laser,5056,256,5056,320,0,9999
+//exit
+S,T,5184,96,128,192
+S,T,5184,384,128,192
+S,T,5376,96,416,1000
+F,5280,224
+F,5280,256
+F,5280,288
+F,5280,320
+F,5280,352
+F,5312,224
+F,5312,256
+F,5312,288
+F,5312,320
+F,5312,352
+F,5344,224
+F,5344,256
+F,5344,288
+F,5344,320
+F,5344,352
